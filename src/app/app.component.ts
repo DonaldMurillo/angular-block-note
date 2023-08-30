@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { NxWelcomeComponent } from './nx-welcome.component';
+import { BlockNoteComponent } from './block-note/block-note.component';
 
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent],
+  imports: [BlockNoteComponent],
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
